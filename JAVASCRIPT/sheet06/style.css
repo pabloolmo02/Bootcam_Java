@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: yellow;
+    min-height: 100vh;
+    color: #333;
+}
+.oreja{
+	background-color: rgb(0, 0, 0);
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	z-index: -1;
+}
+
+.oreja-izda{
+	left: -50px;
+	top: -50px;
+	transform: rotate(45deg);
+}
+.oreja-dcha{
+	right: -50px;
+	top: -50px;
+	transform: rotate(45deg);
+}
+.moflete{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.moflete-izdo{
+	bottom: -50px;
+	left: -50px;
+}
+.moflete-dcho{
+	bottom: -50px;
+	right: -50px;
+}
+
+.container{
+	padding: 20px 250px 20px 250px;
+}
+.search-container{
+	padding-bottom: 15px;
+	display: flex;
+	gap: 4px;
+}
+.search-box{
+	text-align: center;
+	width: 100%;
+	height: 45px;
+}
+
+.pokemon-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.pokemon-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	/* width: 130px; */
+}
+
+.pokemon-image{
+	background-color: rgb(226, 226, 226);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 120px;
+}
+.pokemon-image img{
+	align-items: center;
+	
+}
+.pokemon-id{
+	font-size: 1.5;
+	color: #6a3636;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: #d6d6d6;
+	padding: 5px;
+}
+
+.pokemon-info{
+	background-color: rgb(255, 255, 255);
+	padding: 15px;
+	height: 120px;
+}
+
+.pokemon-types{
+	display: flex;
+	gap: 4px;
+	
+}
+.type{
+	margin-top: 4px;
+	border: 1px solid rgb(102, 102, 102);
+	border-radius: 7px;
+	font-size: .9rem;
+	font-weight: 100;
+	padding: 4px 4px;
+}
+.evolution-info{
+	display: flex;
+	margin-top: 8px;
+}
+.evolution-separator {
+    width: 3px;
+    height: 33px;
+    background-color: #6a3636;
+    margin: 0 5px;
+}
+.evolution-textss{
+	display: flex;
+	flex-direction: column;
+}
+.evolution-text {
+    font-size: 0.8rem;
+    color: #6a3636;
+
+}
+
+.evolution-name {
+    font-size: 1rem;
+    
+    color: #333;
+    
+}
