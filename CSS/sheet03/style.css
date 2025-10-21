@@ -16,11 +16,17 @@ body {
 	position: fixed;
 	z-index: -1;
 }
+/* .oreja-izda{
+	clip-path: polygon(0 0, 0% 100%, 100% 0);
 
+.oreja-dcha{
+	clip-path: polygon(0 0, 100% 100%, 100% 0);
+	
+*/
 .oreja-izda{
-	left: -50px;
+ 	left: -50px;
 	top: -50px;
-	transform: rotate(45deg);
+	transform: rotate(45deg); 
 }
 .oreja-dcha{
 	right: -50px;
@@ -34,15 +40,16 @@ body {
 	border-radius: 100%;
 	position: fixed;
 	z-index: -1;
+		--dim: 100px;
 }
 
 .moflete-izdo{
-	bottom: -50px;
-	left: -50px;
+	bottom: calc(-1 * var(--dim) / 2);
+	left: calc(-1 * var(--dim) / 2);
 }
 .moflete-dcho{
-	bottom: -50px;
-	right: -50px;
+	bottom: calc(-1 * var(--dim) / 2);
+	right: calc(-1 * var(--dim) / 2);
 }
 
 .container{
