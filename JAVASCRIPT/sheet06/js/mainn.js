@@ -9,4 +9,5 @@ searchBox.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') filterPokemon();
 });
 
+
 loadPokemon(); // ← función de api.js

@@ -6,6 +6,7 @@ async function loadPokemon() {
 
     const promises = data.results.map(async p => {
       const res = await fetch(p.url);
+	  console.log(res);
       const details = await res.json();
       const speciesRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${details.id}/`);
       const speciesData = await speciesRes.json();
@@ -22,7 +23,7 @@ async function loadPokemon() {
     });
 
     allPokemon = await Promise.all(promises);
-    renderPokemon(allPokemon); // <-- función definida en render.js
+    renderPokemon(allPokemon);
   } catch (error) {
 	const pokedex = document.getElementById('pokedex'); 
     pokedex.innerHTML = `<p>Error al cargar Pokémon 😢</p>`;
