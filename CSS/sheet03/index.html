@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pokédex - Mundo Pokemon</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="oreja oreja-izda"></div>
+	<div class="oreja oreja-dcha"></div>
+	<div class="moflete moflete-izdo"></div>
+	<div class="moflete moflete-dcho"></div>
+
+	
+
+
+	<div class="container">
+		<header>
+			<div class="search-container">
+				<input type="text" class="search-box" placeholder="Filtra Pokémon por nombre...">
+			</div>
+		</header>
+
+		<div class="pokemon-grid">
+			<!-- Pokemon 1 - Bulbasaur -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+						alt="Bulbasaur">
+					<div class="pokemon-id">ID/01</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Bulbasaur</h3>
+					<div class="pokemon-types">
+						<span class="type grass">Grass</span>
+						<span class="type poison">Poison</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 2 - Ivysaur -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+						alt="Ivysaur">
+					<div class="pokemon-id">ID/02</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Ivysaur</h3>
+					<div class="pokemon-types">
+						<span class="type grass">Grass</span>
+						<span class="type poison">Poison</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Bulbasaur</span>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 3 - Venusaur -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+						alt="Venusaur">
+					<div class="pokemon-id">ID/03</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Venusaur</h3>
+					<div class="pokemon-types">
+						<span class="type grass">Grass</span>
+						<span class="type poison">Poison</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Ivysaur</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 4 - Charmander -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+						alt="Charmander">
+					<div class="pokemon-id">ID/04</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Charmander</h3>
+					<div class="pokemon-types">
+						<span class="type fire">Fire</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 5 - Charmeleon -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+						alt="Charmeleon">
+					<div class="pokemon-id">ID/05</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Charmeleon</h3>
+					<div class="pokemon-types">
+						<span class="type fire">Fire</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Charmander</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 6 - Charizard -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+						alt="Charizard">
+					<div class="pokemon-id">ID/06</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Charizard</h3>
+					<div class="pokemon-types">
+						<span class="type fire">Fire</span>
+						<span class="type flying">Flying</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Charmeleon</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 7 - Squirtle -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+						alt="Squirtle">
+					<div class="pokemon-id">ID/07</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Squirtle</h3>
+					<div class="pokemon-types">
+						<span class="type water">Water</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 8 - Wartortle -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+						alt="Wartortle">
+					<div class="pokemon-id">ID/08</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Wartortle</h3>
+					<div class="pokemon-types">
+						<span class="type water">Water</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Squirtle</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 9 - Blastoise -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+						alt="Blastoise">
+					<div class="pokemon-id">ID/09</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Blastoise</h3>
+					<div class="pokemon-types">
+						<span class="type water">Water</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Wartortle</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 10 - Caterpie -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+						alt="Caterpie">
+					<div class="pokemon-id">ID/10</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Caterpie</h3>
+					<div class="pokemon-types">
+						<span class="type bug">Bug</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 11 - Metapod -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+						alt="Metapod">
+					<div class="pokemon-id">ID/11</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Metapod</h3>
+					<div class="pokemon-types">
+						<span class="type bug">Bug</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Caterpie</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 12 - Butterfree -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+						alt="Butterfree">
+					<div class="pokemon-id">ID/12</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Butterfree</h3>
+					<div class="pokemon-types">
+						<span class="type bug">Bug</span>
+						<span class="type flying">Flying</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Metapod</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 13 - Weedle -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+						alt="Weedle">
+					<div class="pokemon-id">ID/13</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Weedle</h3>
+					<div class="pokemon-types">
+						<span class="type bug">Bug</span>
+						<span class="type poison">Poison</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 14 - Kakuna -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+						alt="Kakuna">
+					<div class="pokemon-id">ID/14</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Kakuna</h3>
+					<div class="pokemon-types">
+						<span class="type bug">Bug</span>
+						<span class="type poison">Poison</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Weedle</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 15 - Beedrill -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+						alt="Beedrill">
+					<div class="pokemon-id">ID/15</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Beedrill</h3>
+					<div class="pokemon-types">
+						<span class="type bug">Bug</span>
+						<span class="type poison">Poison</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Kakuna</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 16 - Pidgey -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+						alt="Pidgey">
+					<div class="pokemon-id">ID/16</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Pidgey</h3>
+					<div class="pokemon-types">
+						<span class="type normal">Normal</span>
+						<span class="type flying">Flying</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 17 - Pidgeotto -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+						alt="Pidgeotto">
+					<div class="pokemon-id">ID/17</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Pidgeotto</h3>
+					<div class="pokemon-types">
+						<span class="type normal">Normal</span>
+						<span class="type flying">Flying</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Pidgey</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 18 - Pidgeot -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+						alt="Pidgeot">
+					<div class="pokemon-id">ID/18</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Pidgeot</h3>
+					<div class="pokemon-types">
+						<span class="type normal">Normal</span>
+						<span class="type flying">Flying</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Pidgeotto</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 19 - Rattata -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+						alt="Rattata">
+					<div class="pokemon-id">ID/19</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Rattata</h3>
+					<div class="pokemon-types">
+						<span class="type normal">Normal</span>
+					</div>
+					<div class="evolution-info">
+						<span class="evolution-badge base"></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pokemon 20 - Raticate -->
+			<div class="pokemon-card">
+				<div class="pokemon-image">
+					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+						alt="Raticate">
+					<div class="pokemon-id">ID/20</div>
+				</div>
+				<div class="pokemon-info">
+					<h3 class="pokemon-name">Raticate</h3>
+					<div class="pokemon-types">
+						<span class="type normal">Normal</span>
+					</div>
+					<div class="evolution-info">
+						<div class="evolution-separator"></div>
+						<div class="evolution-textss">
+							<span class="evolution-text">Evoluciona de:</span>
+							<span class="evolution-name">Rattata</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
