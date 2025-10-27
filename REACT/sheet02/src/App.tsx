@@ -2,8 +2,10 @@ import './App.css'
 import MensajePersonalizado from './exercises/ex01/MensajePersonalizado'
 import Cabecera from './exercises/ex02/Cabecera';
 import Tarjeta from './exercises/ex02/Tarjeta';
+import Panel from './exercises/ex03/Panel';
 
 function App() {
+	const mensajeNoti = "Tienes 3 mensajes nuevos";
 	return (
 		<>
 		<h1>SHEET 02 REACT</h1>
@@ -41,7 +43,12 @@ function App() {
                         <li>Certificado digital</li>
                         <li>Email y teléfono de contacto</li>
                     </ul>
-                </Tarjeta>
+            </Tarjeta>
+		</div>
+		<div>
+			
+			<h2>3.- Sistema de Notificaciones (Prop Drilling)</h2>
+			<Panel mensaje={mensajeNoti}/>
 		</div>
 	</>
 
