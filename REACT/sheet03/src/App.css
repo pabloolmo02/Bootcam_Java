@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+nav button {
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+nav button.active {
+  border: 2px solid black;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  min-height: 200px;
+}
