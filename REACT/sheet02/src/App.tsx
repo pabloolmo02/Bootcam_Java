@@ -3,6 +3,8 @@ import MensajePersonalizado from './exercises/ex01/MensajePersonalizado'
 import Cabecera from './exercises/ex02/Cabecera';
 import Tarjeta from './exercises/ex02/Tarjeta';
 import Panel from './exercises/ex03/Panel';
+import ToggleVisibilidad from './exercises/ex04/ToggleVisibilidad';
+import FormularioControlado from './exercises/ex05/FormularioControlado';
 
 function App() {
 	const mensajeNoti = "Tienes 3 mensajes nuevos";
@@ -50,6 +52,15 @@ function App() {
 			<h2>3.- Sistema de Notificaciones (Prop Drilling)</h2>
 			<Panel mensaje={mensajeNoti}/>
 		</div>
+		<div>
+                <h2>4.- Toggle de Visibilidad</h2>
+                <ToggleVisibilidad />
+        </div>
+		{/* Ejercicio 05 */}
+            <div>
+                <h2>5.- Formularios: Controlados vs No Controlados</h2> 
+                <FormularioControlado />
+            </div>
 	</>
 
 	);
